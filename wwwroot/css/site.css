@@ -1,0 +1,80 @@
+html {
+  font-size: 14px;
+  padding:0px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+  padding: 0px;
+}
+
+body {
+  margin-bottom: 60px;
+  padding: 0px;
+}
+
+.font-poppins {
+    font-family: Poppins,sans-serif;
+    font-weight: bold;
+}
+
+.font-montserrat {
+    font-family: Montserrat, sans-serif;
+    font-weight: normal;
+}
+
+.font-montserrat-italic {
+    font-family: Montserrat, sans-serif;
+    font-weight: normal;
+    font-style: italic;
+}
+
+.font-montserrat-bold {
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+}
+
+.font-raleway {
+    font-family: Raleway, sans-serif;
+    font-weight: normal;
+}
+
+.font-raleway-bold {
+    font-family: Raleway, sans-serif;
+    font-weight: bold;
+}
+
+@media (max-width: 992px) {
+    #box-steps, #box-testimonial {
+        display: block;
+        width: 80%;
+        box-sizing: border-box;
+        margin: auto;
+    }
+
+        #box-steps .col, #box-testimonial .col {
+            margin-bottom: 20px;
+        }
+
+    .mx-4 {
+        margin: 0px 0px;
+    }
+}
+
+@media (max-width: 756px) {
+    #choose-us {
+        display: block;
+        margin-top: 5px;
+    }
+
+    #home {
+        display: block;
+    }
+}

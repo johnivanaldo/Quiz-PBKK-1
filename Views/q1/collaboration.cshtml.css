@@ -1,0 +1,9 @@
+﻿.form-container {
+    max-width: 600px;
+}
+
+@media(max-width: 768px) {
+    #life-endorsin {
+        display: block;
+    }
+}

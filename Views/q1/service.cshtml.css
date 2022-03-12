@@ -1,0 +1,20 @@
+﻿@media (max-width: 768px) {
+    .row {
+        display: block;
+        margin: 0px auto;
+        padding: 0px;
+    }
+
+    .row .col-sm-4 {
+        margin: 0px auto;
+        margin-bottom: 15px;
+        padding: 0px;
+        width: 70%;
+    }
+}
+
+@media (max-width: 576px) {
+    .row .col-sm-4 {
+        width: 100%;
+    }
+}

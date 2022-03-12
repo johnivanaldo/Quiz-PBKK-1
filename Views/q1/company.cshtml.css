@@ -1,0 +1,10 @@
+﻿.list-misi {
+    list-style-image: url('/assets/badge-check.png');
+    width: 70%;
+}
+
+@media(max-width:567px) {
+    .list-misi {
+        width:100%
+    }
+}
